@@ -21,7 +21,7 @@ class Springcraft < Formula
   end
 
   def install
-    bin.install "springcraft-#{OS.kernel_name.downcase}" => 'springcraft'
+    bin.install 'springcraft-macos' => 'springcraft'
   end
 
   test do
